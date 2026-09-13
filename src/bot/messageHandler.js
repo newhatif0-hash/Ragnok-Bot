@@ -1,4 +1,4 @@
-import { getShortcutData, isAllowedToUseShortcut } from '../utils/shortcuts.js';
+import { getShortcutData, isAllowedToUseShortcut } from './shortcuts.js';
 
 export async function setupMessageHandler(context, message) {
   if (message.author.bot || !message.guild || !message.member) return;
